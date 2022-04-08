@@ -1,14 +1,11 @@
 import './App.css';
-import Navbar from "./Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CustomSpellCheck from "./Modules/CustomSpellCheck";
+import BusinessCard from "./Modules/BusinessCard";
 
 function App() {
     return (
         <div className="App">
-            <Navbar/>
-            <CustomSpellCheck/>
-
+            <BusinessCard/>
         </div>
     );
 }

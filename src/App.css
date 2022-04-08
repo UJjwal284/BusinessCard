@@ -3,3 +3,79 @@
     padding: 0;
     cursor: default;
 }
+
+::marker {
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+li {
+    font-weight: 600;
+}
+
+.main {
+    height: 90vh;
+    background-image: url("./logo512.png");
+    background-repeat: no-repeat;
+    background-position: 150vh;
+    padding: 50px;
+}
+
+.BCmain {
+    height: 100vh;
+    background-color: #292935;
+}
+
+.cardExt {
+    border-radius: 15px;
+    width: fit-content;
+    padding: 40px;
+    background-color: #363645;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.profileDP {
+    background-color: #eaa560;
+}
+
+.card {
+    width: 210px;
+    text-align: center;
+    background-color: #292935 !important;
+}
+
+.btns button {
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 80px;
+    border-color: transparent;
+}
+
+.btns button:first-child {
+    background-color: white;
+}
+
+.btns button:first-child:hover {
+    border-bottom: 2px solid;
+    border-bottom-color: #c7c7c7 !important;
+}
+
+.btns button:last-child {
+    color: white;
+    background-color: #74a0ef;
+}
+
+.btns button:last-child:hover {
+    border-bottom: 2px solid;
+    border-bottom-color: #5a7dba !important;
+}
+
+.socialBtns *:hover {
+    zoom: 1.1;
+    cursor: pointer;
+}
