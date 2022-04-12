@@ -76,6 +76,45 @@ li {
 }
 
 .socialBtns *:hover {
-    zoom: 1.1;
+    animation: 1s ease forwards zoomin;
     cursor: pointer;
+}
+
+.contacts-card {
+    padding: 12px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #ffffff !important;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+    background-color: #f4f4f4 !important;
+}
+
+.contacts-main {
+    position: relative;
+    top: 50%;
+    width: fit-content;
+    padding: 40px;
+    text-align: center !important;
+}
+
+.contacts-card:hover {
+    cursor: pointer !important;
+    animation: 1s ease forwards zoomin;
+}
+
+.contacts-card * {
+    cursor: pointer;
+}
+
+@keyframes zoomin {
+    0% {
+        transform: scale(1, 1)
+    }
+    100% {
+        transform: scale(1.1, 1.1)
+    }
 }

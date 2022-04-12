@@ -1,11 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BusinessCard from "./Modules/BusinessCard";
+import Contacts from "./Modules/Contacts";
 
 function App() {
     return (
         <div className="App">
-            <BusinessCard/>
+            <Contacts/>
         </div>
     );
 }
