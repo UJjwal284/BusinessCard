@@ -12,6 +12,9 @@ export default function Contacts() {
         })
     }
 
+    console.log(...details)
+    console.log(details)
+
     return (
         <div className={'contacts-main mx-auto'}>
             <ContactCard details={details}/>

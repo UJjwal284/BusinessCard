@@ -5,7 +5,7 @@ export default function ContactCard(details) {
     return (
         <>
             {details.details.map(user =>
-                <>
+                <div key={user.name + user.phone}>
                     <div className={'contacts-card my-5 mx-auto'}>
                         <img src={user.image} style={{borderRadius: 7}} alt={'PP'}/>
                         <h5 className={'fw-bold mt-2 text-start'}>{user.name}</h5>
@@ -19,7 +19,7 @@ export default function ContactCard(details) {
                                style={{fontSize: 14, width: 175}}>{user.email}</p>
                         </div>
                     </div>
-                </>
+                </div>
             )}
         </>
     )
